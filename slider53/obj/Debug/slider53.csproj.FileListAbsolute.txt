@@ -1,0 +1,1 @@
+c:\git\slider53\slider53\bin\Debug\slider53.exe.config
