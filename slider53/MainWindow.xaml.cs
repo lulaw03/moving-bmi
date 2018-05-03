@@ -24,5 +24,11 @@ namespace slider53
         {
             InitializeComponent();
         }
+
+        private void HeightSlider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            double Value = Math.Round(HeightSlider.Value, 1);
+            HeightNumber.Text = Value.ToString();
+        }
     }
 }

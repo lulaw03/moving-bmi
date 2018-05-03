@@ -1,1 +1,14 @@
 c:\git\slider53\slider53\bin\Debug\slider53.exe.config
+C:\git\slider53\slider53\bin\Debug\slider53.exe
+C:\git\slider53\slider53\bin\Debug\slider53.pdb
+C:\git\slider53\slider53\obj\Debug\slider53.csprojResolveAssemblyReference.cache
+C:\git\slider53\slider53\obj\Debug\MainWindow.g.cs
+C:\git\slider53\slider53\obj\Debug\App.g.cs
+C:\git\slider53\slider53\obj\Debug\slider53_MarkupCompile.cache
+C:\git\slider53\slider53\obj\Debug\slider53_MarkupCompile.lref
+C:\git\slider53\slider53\obj\Debug\MainWindow.baml
+C:\git\slider53\slider53\obj\Debug\slider53.g.resources
+C:\git\slider53\slider53\obj\Debug\slider53.Properties.Resources.resources
+C:\git\slider53\slider53\obj\Debug\slider53.csproj.GenerateResource.Cache
+C:\git\slider53\slider53\obj\Debug\slider53.exe
+C:\git\slider53\slider53\obj\Debug\slider53.pdb
