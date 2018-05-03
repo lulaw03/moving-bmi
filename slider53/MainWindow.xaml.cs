@@ -24,11 +24,38 @@ namespace slider53
         {
             InitializeComponent();
         }
-
+        
         private void HeightSlider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {   // height & move position
+            double v = Math.Round(HeightSlider.Value, 1);
+            HeightNumber.Text = v.ToString();
+            Canvas.SetLeft(Height, (v*1.8));//double v = (Value / 200) * 360 ///0~1  
+                   
+            
+
+            // BMI
+            double h = double.Parse(HeightNumber.Text);
+            double w = double.Parse(WeightNumber.Text);
+            double bmi = w / Math.Pow((h / 100), 2);
+
+            string[] parts = bmi.ToString().Split('.');
+            BmiNumber1.Text = parts[0];
+            if (parts.Length > 1)
+            {
+                BmiNumber2.Text = "." + parts[1];
+            }
+            else
+            {
+                BmiNumber2.Text = ".0";
+            }
+        }
+
+        private void WeightSlider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
-            double Value = Math.Round(HeightSlider.Value, 1);
-            HeightNumber.Text = Value.ToString();
+            //weight
+            double V = Math.Round(WeightSlider.Value, 1);
+            WeightNumber.Text = V.ToString();
+            Canvas.SetLeft(Height, (V * 1.8));//double v = (Value / 200) * 360 ///0~1 
         }
     }
 }
